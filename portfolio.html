@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio & Pricing | Creative Studio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <header>
+      <div class="container header-container">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-rocket"></i> Creative Studio
+        </a>
+        <nav class="desktop-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="portfolio.html" class="active">Portfolio & Pricing</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+        <a href="contact.html" class="btn desktop-btn">Start a Project</a>
+        <div class="header-menu">
+          <button aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
+          <nav class="responsive-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link active" href="portfolio.html">Portfolio & Pricing</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a href="contact.html" class="btn">Start a Project</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page Header -->
+      <section class="hero container" style="padding-top: 130px; padding-bottom: 20px; text-align: center; justify-content: center;">
+        <div class="hero-content" style="align-items: center;">
+          <span class="badge">Showcase & Plans</span>
+          <h1>Our Recent <span>Work & Pricing</span></h1>
+          <p>Explore our latest client projects and choose the right service package for your business growth.</p>
+        </div>
+      </section>
+
+      <!-- Portfolio Gallery Grid -->
+      <section class="container">
+        <div class="section-heading">
+          <h2 class="first-title">Featured Projects</h2>
+          <p class="second-title">A selection of digital products built with modern standards.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Storefront" />
+              <span class="portfolio-tag">Web App</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>FinTech Dashboard</h3>
+              <p>Real-time analytics platform built for a global financial agency with interactive data graphs.</p>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Mobile App Design" />
+              <span class="portfolio-tag">UI/UX Design</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>Health & Fitness Tracker</h3>
+              <p>Intuitive mobile interface design focused on seamless user onboarding and activity monitoring.</p>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="SaaS Website" />
+              <span class="portfolio-tag">Development</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>AI Cloud Platform</h3>
+              <p>High-converting landing page & web app frontend for an artificial intelligence SaaS company.</p>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80" alt="Agency Website" />
+              <span class="portfolio-tag">Branding</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>Luxury Real Estate</h3>
+              <p>Modern property listing website with interactive maps and automated booking inquiry form.</p>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="E-Commerce App" />
+              <span class="portfolio-tag">E-Commerce</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>Fashion Storefront</h3>
+              <p>Full-featured online store layout with fast product filtering, cart preview, and smooth checkout.</p>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Tech Blog" />
+              <span class="portfolio-tag">Content Hub</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>CyberSec Learning Portal</h3>
+              <p>Educational portal containing courses, blog posts, and interactive quiz components.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Cards Section -->
+      <section class="container">
+        <div class="section-heading">
+          <h2 class="first-title">Transparent Pricing Plans</h2>
+          <p class="second-title">Select the plan that fits your current business scale and requirements.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Basic Plan -->
+          <div class="pricing-card">
+            <div>
+              <h3>Startup Starter</h3>
+              <div class="price">$499 <span>/ project</span></div>
+              <p>Ideal for small businesses needing a clean online presence.</p>
+              <ul class="pricing-features">
+                <li><i class="fa-solid fa-check"></i> Single Page Website</li>
+                <li><i class="fa-solid fa-check"></i> Responsive Mobile Layout</li>
+                <li><i class="fa-solid fa-check"></i> Contact Form Integration</li>
+                <li><i class="fa-solid fa-check"></i> 1 Week Support</li>
+              </ul>
+            </div>
+            <a href="contact.html" class="btn btn-secondary">Select Starter</a>
+          </div>
+
+          <!-- Pro Plan (Featured) -->
+          <div class="pricing-card featured">
+            <span class="badge">Most Popular</span>
+            <div>
+              <h3>Business Pro</h3>
+              <div class="price">$1,299 <span>/ project</span></div>
+              <p>Complete multi-page website solution for growing brands.</p>
+              <ul class="pricing-features">
+                <li><i class="fa-solid fa-check"></i> Up to 5 Custom Pages</li>
+                <li><i class="fa-solid fa-check"></i> Advanced CSS Animations</li>
+                <li><i class="fa-solid fa-check"></i> Basic SEO Optimization</li>
+                <li><i class="fa-solid fa-check"></i> Speed Optimization</li>
+                <li><i class="fa-solid fa-check"></i> 1 Month Free Support</li>
+              </ul>
+            </div>
+            <a href="contact.html" class="btn">Get Business Pro</a>
+          </div>
+
+          <!-- Enterprise Plan -->
+          <div class="pricing-card">
+            <div>
+              <h3>Custom Enterprise</h3>
+              <div class="price">$2,999+ <span>/ project</span></div>
+              <p>Tailored web app development for complex digital products.</p>
+              <ul class="pricing-features">
+                <li><i class="fa-solid fa-check"></i> Unlimited Custom Pages</li>
+                <li><i class="fa-solid fa-check"></i> Full React / JS Web App</li>
+                <li><i class="fa-solid fa-check"></i> UI/UX Design System</li>
+                <li><i class="fa-solid fa-check"></i> Dedicated Project Lead</li>
+                <li><i class="fa-solid fa-check"></i> 3 Months VIP Support</li>
+              </ul>
+            </div>
+            <a href="contact.html" class="btn btn-secondary">Contact Enterprise</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Table Section: Features Comparison -->
+      <section class="container">
+        <div class="section-heading">
+          <h2 class="first-title">Compare Plan Features</h2>
+          <p class="second-title">Detailed breakdown of what is included in each track.</p>
+        </div>
+
+        <div class="pricing-table-container">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Feature / Track</th>
+                <th>Starter ($499)</th>
+                <th>Business Pro ($1,299)</th>
+                <th>Enterprise ($2,999+)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Custom Page Count</td>
+                <td>1 Page</td>
+                <td>Up to 5 Pages</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Responsive Mobile Design</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Included</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Included</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Included</td>
+              </tr>
+              <tr>
+                <td>CSS Keyframe Animations</td>
+                <td>Basic</td>
+                <td class="check">Advanced</td>
+                <td class="check">Custom Interactive</td>
+              </tr>
+              <tr>
+                <td>SEO & Performance Audit</td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i> No</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Standard</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Full Audit</td>
+              </tr>
+              <tr>
+                <td>Source Code Access</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Included</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Included</td>
+                <td class="check"><i class="fa-solid fa-check"></i> Included</td>
+              </tr>
+              <tr>
+                <td>Post-Launch Support</td>
+                <td>7 Days</td>
+                <td>30 Days</td>
+                <td>90 Days VIP</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="index.html" class="logo">
+              <i class="fa-solid fa-rocket"></i> Creative Studio
+            </a>
+            <p>Delivering high-quality digital agency services and modern web engineering solutions.</p>
+          </div>
+          <div class="footer-links-group">
+            <div class="footer-col">
+              <h5>Navigation</h5>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h5>Services</h5>
+              <ul>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">UI/UX Design</a></li>
+                <li><a href="#">SEO & Growth</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+          <p>© 2026 Creative Studio Agency. All rights reserved.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
