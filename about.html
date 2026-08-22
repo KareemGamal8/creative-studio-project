@@ -39,17 +39,29 @@
 
     <main>
       <!-- Page Header -->
-      <section class="page-header container" style="padding-top: 130px; padding-bottom: 20px; text-align: center;">
+      <section class="hero container" style="padding-top: 130px; padding-bottom: 20px; text-align: center; justify-content: center;">
         <div class="hero-content" style="align-items: center;">
           <span class="badge">Who We Are</span>
           <h1>Empowering Brands Through <span>Design & Code</span></h1>
-          <p>We are a multidisciplinary team of developers, designers, and digital strategists committed to crafting outstanding web applications.</p>
+          <p style="max-width: 680px;">We are a multidisciplinary team of developers, designers, and digital strategists committed to crafting outstanding web applications.</p>
+          
+          <div class="portfolio-hero-stats">
+            <div class="portfolio-stat-pill">
+              <i class="fa-solid fa-calendar-check"></i> 6+ Years Experience
+            </div>
+            <div class="portfolio-stat-pill">
+              <i class="fa-solid fa-users"></i> 24 Global Team Members
+            </div>
+            <div class="portfolio-stat-pill">
+              <i class="fa-solid fa-location-dot"></i> NY & Remote Operations
+            </div>
+          </div>
         </div>
       </section>
 
-      <!-- Our Mission & Vision Section -->
+      <!-- Our Mission & Vision Section (Two Column Layout) -->
       <section class="container">
-        <div class="hero" style="padding-top: 20px;">
+        <div class="hero-grid" style="padding-top: 20px;">
           <div class="hero-content">
             <h2 class="first-title">Our Story & Mission</h2>
             <p>
@@ -58,8 +70,21 @@
             <p>
               Over the past 6 years, we’ve grown into a full-service agency helping startups, mid-sized businesses, and enterprise clients launch products that drive real revenue and user engagement.
             </p>
+
+            <div class="story-highlights">
+              <div class="story-highlight-item">
+                <i class="fa-solid fa-check"></i> 100% Custom Frontend & Responsive Code
+              </div>
+              <div class="story-highlight-item">
+                <i class="fa-solid fa-check"></i> Transparent Sprint Roadmaps & Clear Pricing
+              </div>
+              <div class="story-highlight-item">
+                <i class="fa-solid fa-check"></i> Dedicated Post-Launch Support & Performance Tuning
+              </div>
+            </div>
+
             <div class="hero-btns">
-              <a href="portfolio.html" class="btn">Our Work <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="portfolio.html" class="btn">Our Portfolio <i class="fa-solid fa-arrow-right"></i></a>
               <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
             </div>
           </div>
@@ -78,27 +103,36 @@
 
         <div class="services-list">
           <div class="service-card">
-            <div class="service-icon">
-              <i class="fa-solid fa-lightbulb"></i>
+            <div class="value-card-header">
+              <div class="service-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <span class="value-number">01</span>
             </div>
             <h3>Innovation First</h3>
-            <p>We leverage modern HTML5, CSS3 animations, and frontend tools to build forward-thinking digital products.</p>
+            <p>We leverage modern HTML5, CSS3 animations, and frontend engineering to build forward-thinking digital products.</p>
           </div>
 
           <div class="service-card">
-            <div class="service-icon">
-              <i class="fa-solid fa-shield-halved"></i>
+            <div class="value-card-header">
+              <div class="service-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <span class="value-number">02</span>
             </div>
             <h3>Transparency</h3>
-            <p>Clear communication, upfront pricing, and detailed project roadmaps so you are always in the loop.</p>
+            <p>Clear communication, upfront pricing, and detailed project roadmaps so you are always informed at every milestone.</p>
           </div>
 
           <div class="service-card">
-            <div class="service-icon">
-              <i class="fa-solid fa-bullseye"></i>
+            <div class="value-card-header">
+              <div class="service-icon">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+              <span class="value-number">03</span>
             </div>
             <h3>User-Centric Design</h3>
-            <p>Every interface we design is engineered to provide intuitive navigation and optimal user experiences.</p>
+            <p>Every interface we design is engineered to provide intuitive navigation, accessibility, and optimal user experiences.</p>
           </div>
         </div>
       </section>
@@ -112,50 +146,66 @@
 
         <div class="team-grid">
           <!-- Team Member 1 -->
-          <div class="portfolio-card" style="text-align: center;">
-            <div class="portfolio-img-box" style="height: 240px; display: flex; align-items: center; justify-content: center; background-color: #f8fafc;">
-              <i class="fa-solid fa-user-tie" style="font-size: 64px; color: #7c3aed;"></i>
+          <div class="team-card">
+            <div class="team-img-box">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Alex Rivera - Founder & CEO" />
+              <div class="team-social-overlay">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              </div>
             </div>
-            <div class="portfolio-info">
+            <div class="team-info">
               <h3>Alex Rivera</h3>
-              <p style="color: #4f46e5; font-weight: 600; margin-bottom: 8px;">Founder & CEO</p>
-              <p style="font-size: 13px;">10+ years experience leading tech startups and digital transformation agencies.</p>
+              <span class="team-role">Founder & CEO</span>
+              <p>10+ years experience leading tech startups and digital transformation agencies.</p>
             </div>
           </div>
 
           <!-- Team Member 2 -->
-          <div class="portfolio-card" style="text-align: center;">
-            <div class="portfolio-img-box" style="height: 240px; display: flex; align-items: center; justify-content: center; background-color: #f8fafc;">
-              <i class="fa-solid fa-user-pen" style="font-size: 64px; color: #7c3aed;"></i>
+          <div class="team-card">
+            <div class="team-img-box">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Elena Rostova - Head of UI/UX Design" />
+              <div class="team-social-overlay">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+              </div>
             </div>
-            <div class="portfolio-info">
+            <div class="team-info">
               <h3>Elena Rostova</h3>
-              <p style="color: #4f46e5; font-weight: 600; margin-bottom: 8px;">Head of UI/UX Design</p>
-              <p style="font-size: 13px;">Passionate about craft, accessibility, and creating memorable visual identities.</p>
+              <span class="team-role">Head of UI/UX Design</span>
+              <p>Passionate about craft, accessibility, and creating memorable visual identities.</p>
             </div>
           </div>
 
           <!-- Team Member 3 -->
-          <div class="portfolio-card" style="text-align: center;">
-            <div class="portfolio-img-box" style="height: 240px; display: flex; align-items: center; justify-content: center; background-color: #f8fafc;">
-              <i class="fa-solid fa-user-code" style="font-size: 64px; color: #7c3aed;"></i>
+          <div class="team-card">
+            <div class="team-img-box">
+              <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80" alt="David Chen - Lead Frontend Engineer" />
+              <div class="team-social-overlay">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
             </div>
-            <div class="portfolio-info">
+            <div class="team-info">
               <h3>David Chen</h3>
-              <p style="color: #4f46e5; font-weight: 600; margin-bottom: 8px;">Lead Frontend Engineer</p>
-              <p style="font-size: 13px;">Specialist in CSS animation architecture, React, and performance optimization.</p>
+              <span class="team-role">Lead Frontend Engineer</span>
+              <p>Specialist in CSS animation architecture, React, and web performance tuning.</p>
             </div>
           </div>
 
           <!-- Team Member 4 -->
-          <div class="portfolio-card" style="text-align: center;">
-            <div class="portfolio-img-box" style="height: 240px; display: flex; align-items: center; justify-content: center; background-color: #f8fafc;">
-              <i class="fa-solid fa-user-gear" style="font-size: 64px; color: #7c3aed;"></i>
+          <div class="team-card">
+            <div class="team-img-box">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80" alt="Maya Lin - Digital Marketing Strategist" />
+              <div class="team-social-overlay">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              </div>
             </div>
-            <div class="portfolio-info">
+            <div class="team-info">
               <h3>Maya Lin</h3>
-              <p style="color: #4f46e5; font-weight: 600; margin-bottom: 8px;">Digital Marketing Strategist</p>
-              <p style="font-size: 13px;">Helping clients scale search traffic and maximize conversion rates.</p>
+              <span class="team-role">Marketing Strategist</span>
+              <p>Helping clients scale organic search traffic and maximize conversion rates.</p>
             </div>
           </div>
         </div>
@@ -180,26 +230,26 @@
             </thead>
             <tbody>
               <tr>
-                <td>2020</td>
+                <td><span class="milestone-year"><i class="fa-solid fa-flag"></i> 2020</span></td>
                 <td>Studio Founded in New York</td>
                 <td>12 Projects</td>
                 <td>3 Members</td>
               </tr>
               <tr>
-                <td>2022</td>
-                <td>Expanded to UI/UX & Web Development</td>
+                <td><span class="milestone-year"><i class="fa-solid fa-chart-line"></i> 2022</span></td>
+                <td>Expanded to UI/UX & Full Web Development</td>
                 <td>75 Projects</td>
                 <td>8 Members</td>
               </tr>
               <tr>
-                <td>2024</td>
+                <td><span class="milestone-year"><i class="fa-solid fa-globe"></i> 2024</span></td>
                 <td>Crossed 150+ Happy Global Clients</td>
                 <td>160 Projects</td>
                 <td>15 Members</td>
               </tr>
               <tr>
-                <td>2026</td>
-                <td>Recognized as Top Digital Agency</td>
+                <td><span class="milestone-year"><i class="fa-solid fa-award"></i> 2026</span></td>
+                <td>Recognized as Top Digital Engineering Agency</td>
                 <td>250+ Projects</td>
                 <td>24 Members</td>
               </tr>
@@ -213,7 +263,7 @@
         <div class="pricing-card featured" style="text-align: center; align-items: center;">
           <span class="badge">Join Our Journey</span>
           <h2 class="first-title" style="margin-top: 10px;">Want to Work With Our Team?</h2>
-          <p style="max-width: 600px; margin-bottom: 24px;">
+          <p style="max-width: 600px; margin-bottom: 24px; color: #64748b;">
             Whether you have a new project in mind or need a redesign, we’re ready to collaborate.
           </p>
           <a href="contact.html" class="btn">Get In Touch <i class="fa-solid fa-paper-plane"></i></a>
